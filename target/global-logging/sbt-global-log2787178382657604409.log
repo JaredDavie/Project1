@@ -1,0 +1,102 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.0 (Private Build Java 1.8.0_312)
+[debug] Load.defaultLoad until apply took 528.675357ms
+[debug]           Load.loadUnit: plugins took 316.332543ms
+[debug]           Load.loadUnit: defsScala took 0.645919ms
+[debug] [Loading] Scanning directory /home/parallels/IdeaProjects/project1/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/parallels/IdeaProjects/project1/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 121.823268 ms
+[debug]               Load.resolveProject(project1-build) took 355.295035ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id project1-build, base: /home/parallels/IdeaProjects/project1/project, plugins: List(<none>))) took 623.513224ms
+[debug] [Loading] Done in /home/parallels/IdeaProjects/project1/project, returning: (project1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 747.199859ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.379292ms
+[debug]         Load.loadUnit(file:/home/parallels/IdeaProjects/project1/project/, ...) took 1085.145714ms
+[debug]       Load.apply: load took 2082.608667ms
+[debug]       Load.apply: resolveProjects took 26.582073ms
+[debug]       Load.apply: finalTransforms took 215.301419ms
+[debug]       Load.apply: config.delegates took 14.697446ms
+[debug]       Load.apply: Def.make(settings)... took 1631.3388ms
+[debug]       Load.apply: structureIndex took 404.952132ms
+[debug]       Load.apply: mkStreams took 1.943457ms
+[info] loading project definition from /home/parallels/IdeaProjects/project1/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7240.966964ms
+[debug]     Load.loadUnit: defsScala took 0.0051ms
+[debug] [Loading] Scanning directory /home/parallels/IdeaProjects/project1
+[debug]       Load.loadUnit: mkEval took 13.153695ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.285461 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 9.258736ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/parallels/IdeaProjects/project1, plugins: List(<none>))) took 14.954059ms
+[debug] [Loading] Done in /home/parallels/IdeaProjects/project1, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3758.250493ms
+[debug]     Load.loadUnit: cleanEvalClasses took 13.701963ms
+[debug]   Load.loadUnit(file:/home/parallels/IdeaProjects/project1/, ...) took 11014.749135ms
+[debug] Load.apply: load took 11117.338055ms
+[debug] Load.apply: resolveProjects took 0.225201ms
+[debug] Load.apply: finalTransforms took 12.821597ms
+[debug] Load.apply: config.delegates took 0.650159ms
+[debug] Load.apply: Def.make(settings)... took 347.834885ms
+[debug] Load.apply: structureIndex took 49.964804ms
+[debug] Load.apply: mkStreams took 0.003775ms
+[info] set current project to HIVE1234 (in build file:/home/parallels/IdeaProjects/project1/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * ThisBuild / version
+[warn]   +- /home/parallels/IdeaProjects/project1/build.sbt:1
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] 
+[info] Here are some highlights of this release:
+[info]   - `++ <sv> <command1>` updates
+[info]   - Scala 3 compiler error improvements
+[info]   - Improved Build Server Protocol (BSP) support
+[info] See https://eed3si9n.com/sbt-1.7.0 for full release notes.
+[info] Hide the banner for this release by running `skipBanner`.
+[info] sbt server started at local:///home/parallels/.sbt/1.0/server/d2ca56a5dacd4af427cc/sock
+[debug] Writing bsp connection file
+[info] started sbt server
